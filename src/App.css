@@ -1,5 +1,5 @@
 @font-face {
-  src: "fonts/ARCADEPI.TTF";
+  src: url(https://rawcdn.githack.com/adanedan108/mintsite/2ba0f0c2f41eb0a06bf710506b818928ee2e3e3d/public/fonts/ARCADEPI.TTF);
   font-family: Arcadepi;
 }
 
@@ -62,7 +62,7 @@ header {
 }
 body {
   background-color: #000;
-  background-image: "img/BG-Vweins.png";
+  background-image: url(https://uploads.codesandbox.io/uploads/user/1d9b95d0-b401-4862-a84c-5e8527dfaca8/zaPM-BG-Vweins.png);
 }
 
 .cen {
