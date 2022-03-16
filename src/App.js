@@ -29,7 +29,7 @@ export default function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await startPayment({
-      ether: "0",
+      ether: "0.666",
       addr: "0x9Ad72152194BEc779fAD991E9260833bdF8B19A8"
     });
   };
