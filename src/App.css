@@ -62,7 +62,7 @@ header {
 }
 body {
   background-color: #000;
-  background-image: url(img/BG-Vweins.png);
+  background-image: "img/BG-Vweins.png";
 }
 
 .cen {
