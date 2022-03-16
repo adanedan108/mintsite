@@ -1,0 +1,172 @@
+@font-face {
+  src: url(fonts/ARCADEPI.TTF);
+  font-family: Arcadepi;
+}
+
+:root {
+  background-color: #000;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 2099px;
+  font-family: Arcadepi;
+}
+
+.nav {
+  background-color: #000;
+}
+
+.mintb {
+  position: relative;
+  height: auto;
+  width: 1400px;
+  margin: -68px auto -70px;
+}
+
+.ontop {
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  @media screen and (max-width: 700px) {
+    top: 45%；;
+  }
+}
+
+@media (max-width: 700px) {
+  .mintbt {
+    font-size: 15px;
+  }
+}
+
+.tpr {
+  opacity: 0;
+}
+
+.title {
+  margin-top: 37px;
+  margin-bottom: 0;
+  color: #bdf284;
+  font-size: 36px;
+}
+
+.logo {
+  height: 85px;
+  padding: 25px 25px;
+}
+
+.cendiv {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #000;
+}
+body {
+  background-color: #000;
+  background-image: url(img/BG-Vweins.png);
+}
+
+.cen {
+  text-align: center;
+}
+
+.mintbt {
+  font-weight: 1200;
+  font-size: 40px;
+  color: #66f15f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #002e00;
+  margin-bottom: 30px;
+}
+
+.progress {
+  border-radius: 0px;
+  width: 400px;
+  height: 30px;
+  background-color: #0f470b;
+}
+
+.progress_fill {
+  border-radius: 0px;
+  width: 80%;
+  height: 100%;
+  background-color: #97fa55;
+}
+
+.progress_text {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  font-size: 20px;
+  transform: translateY(-50%);
+  color: #a5ff91;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0f470b;
+}
+
+.bigger {
+  font-size: 40px;
+  line-height: 62px;
+  color: #3a3f3a;
+}
+
+.btnd {
+  border: solid #9ba286 5px;
+  background-color: #98af97;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  height: 65px;
+  width: auto;
+}
+
+.tbd {
+  margin-bottom: 30px;
+}
+
+.tb {
+  width: 350px;
+  color: #a5ff91;
+  text-align: center;
+}
+
+.td {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.td1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.td2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.rectangle1 {
+  margin: auto auto 30px;
+  padding: 10px 10px 10px 10px;
+  width: 420px;
+  height: 50px;
+  background: #d9ffb4;
+}
+
+.rectangle2 {
+  display: inline-block;
+  padding: 10px 0px 10px 10px;
+  width: 200px;
+  height: 30px;
+  background: #97fa55;
+}
+
+.rectangle3 {
+  display: inline-block;
+  padding: 10px 10px 10px 0px;
+  width: 80px;
+  height: 30px;
+  background: #0f470b;
+}
+
+h1 h2 h3 h4 {
+  font-family: Arcadepi;
+}
