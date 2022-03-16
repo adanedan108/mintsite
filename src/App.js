@@ -1,10 +1,10 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { ethers } from "ethers";
-import ErrorMessage from "./ErrorMessage";
-import TxList from "./TxList";
+//import ErrorMessage from "./ErrorMessage";
+//import TxList from "./TxList";
 import "./App.css";
-import logo from "./img/zombie_type.png";
-import mintb from "./img/Mint-Block.png";
+//import logo from "./img/zombie_type.png";
+//import mintb from "./img/Mint-Block.png";
 
 const startPayment = async ({ setError, setTxs, ether, addr }) => {
   try {
@@ -38,14 +38,14 @@ export default function App() {
     <>
       <div className="nav">
         <a href="https://zombieclub.io">
-          <img className="logo" src={logo} alt="" />
+          <img className="logo" src="img/zombie_type.png" alt="" />
         </a>
       </div>
       <div>
         <form className="m-4" onSubmit={handleSubmit}>
           <h1 className="cen title">Get turned now!</h1>
           <div>
-            <img className="mintb" src={mintb} alt="" />
+            <img className="mintb" src="img/Mint-Block.png" alt="" />
             <main className="cendiv mt-4 p-4 ontop">
               <h1 className="mintbt mintbtb text-xl font-semibold text-gray-700 text-center">
                 MINT CLUB PASS
