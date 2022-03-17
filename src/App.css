@@ -101,7 +101,7 @@ body {
   font-size: 20px;
   transform: translateY(-50%);
   color: #a5ff91;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2.3px;
   -webkit-text-stroke-color: #0f470b;
 }
 
@@ -117,7 +117,8 @@ body {
   margin-bottom: 5px;
   padding-bottom: 5px;
   height: 65px;
-  width: auto;
+  width: 350px;
+  border-radius: 15px;
 }
 
 .tbd {
