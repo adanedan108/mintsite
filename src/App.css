@@ -24,10 +24,10 @@
 
 .ontop {
   margin-top: 0px;
-  transform: translateY(-30%);
+  transform: translateY(-60%);
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 78%;
   @media screen and (max-width: 700px) {
     top: 45%；;
   }

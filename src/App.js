@@ -38,14 +38,22 @@ export default function App() {
     <>
       <div className="nav">
         <a href="https://zombieclub.io">
-          <img className="logo" src="img/zombie_type.png" alt="" />
+          <img
+            className="logo"
+            src="https://raw.githubusercontent.com/adanedan108/csb-0j1gzz/gh-pages/img/zombie_type.png"
+            alt=""
+          />
         </a>
       </div>
       <div>
         <form className="m-4" onSubmit={handleSubmit}>
           <h1 className="cen title">Get turned now!</h1>
           <div>
-            <img className="mintb" src="img/Mint-Block.png" alt="" />
+            <img
+              className="mintb"
+              src="https://raw.githubusercontent.com/adanedan108/csb-0j1gzz/gh-pages/img/Mint-Block.png"
+              alt=""
+            />
             <main className="cendiv mt-4 p-4 ontop">
               <h1 className="mintbt mintbtb text-xl font-semibold text-gray-700 text-center">
                 MINT CLUB PASS
