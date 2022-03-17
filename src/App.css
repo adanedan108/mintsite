@@ -23,9 +23,11 @@
 }
 
 .ontop {
+  margin-top: 0px;
+  transform: translateY(-30%);
   position: absolute;
   text-align: center;
-  top: 55%;
+  top: 65%;
   @media screen and (max-width: 700px) {
     top: 45%；;
   }
