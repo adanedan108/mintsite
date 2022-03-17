@@ -48,7 +48,7 @@ export default function App() {
       <div>
         <form className="m-4" onSubmit={handleSubmit}>
           <h1 className="cen title">Get turned now!</h1>
-          <div>
+          <div className="box">
             <img
               className="mintb"
               src="https://raw.githubusercontent.com/adanedan108/csb-0j1gzz/gh-pages/img/Mint-Block.png"
